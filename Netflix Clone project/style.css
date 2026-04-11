@@ -84,15 +84,18 @@ nav button {
 }
 
 .sepration {
-    height: 11px;
-    background-color: gray;
+    height: 10px;
+    background-color: rgb(37, 37, 37);
 }
 
 .btn {
-    padding: 3px 12px;
-    background-color: white;
-    font-weight: bold;
-    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 4px 25px 4px 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.2px solid white;
 }
 
 .btn-red {
@@ -107,9 +110,13 @@ nav button {
 .btn-red-sm {
     color: white;
     background-color: red;
+    font-weight: 400;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 3px 12px 3px 12px;
 }
 
-.hero-buttons{
+.hero-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,12 +129,96 @@ nav button {
     border-radius: 4px;
     font-size: 16px;
     background-color: rgba(23, 23, 23, 0.2);
-    border: 1px solid  rgb(70, 69, 69);
+    border: 1px solid rgb(70, 69, 69);
+    color: white;
+}
+
+.first {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first>div :first-child {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2) {
+    font-size: 25px;
+    align-items: center;
 }
 
 
 
+.secimg {
+    position: relative;
+}
 
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 80px;
+    right: 71px;
+    width: 22vw;
+}
+
+
+.second {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+
+section.second>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.second>div :first-child {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.second>div :nth-child(2) {
+    font-size: 25px;
+    align-items: center;
+}
+
+.secimg2 {
+    position: relative;
+}
+
+.secimg2 img {
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg2 video {
+    position: absolute;
+    top: 42px;
+    right: 105px;
+    width: 22vw; 
+}
 
 
 
