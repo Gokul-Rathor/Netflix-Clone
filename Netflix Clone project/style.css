@@ -217,11 +217,94 @@ section.second>div {
     position: absolute;
     top: 42px;
     right: 105px;
-    width: 22vw; 
+    width: 22vw;
+}
+
+.Third {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+section.Third>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Third>div :first-child {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.Third>div :nth-child(2) {
+    font-size: 20px;
+    align-items: center;
+}
+
+.secimg3 {
+    width: 35vw;
 }
 
 
+.fourth {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
 
+.secimg4 {
+    width: 35vw;
+}
+
+section.fourth>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth>div :first-child {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.fourth>div :nth-child(2) {
+    font-size: 20px;
+    align-items: center;
+}
+
+.faq{
+    background-color:  black;
+    color: white;
+    padding: 34px;
+}
+
+.faq h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 35px
+}
+
+.faqbox:hover {
+    background-color: rgb(100, 94, 94)
+}
+
+.faqbox {
+    display: flex;
+    transition: all 1s ease-out;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 20px;
+    width: 100%;
+    max-width: 40vw;
+    margin: 5px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 
 /* https://web.archive.org/web/20231117000621/https://www.netflix.com/ */
