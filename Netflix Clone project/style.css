@@ -27,6 +27,7 @@
     top: 0;
 }
 
+
 nav {
     display: flex;
     max-width: 60vw;
@@ -277,13 +278,13 @@ section.fourth>div {
     align-items: center;
 }
 
-.faq{
-    background-color:  black;
+.faq {
+    background-color: black;
     color: white;
     padding: 34px;
 }
 
-.faq h2{
+.faq h2 {
     text-align: center;
     padding: 30px;
     font-size: 35px
@@ -306,5 +307,69 @@ section.fourth>div {
     cursor: pointer;
 }
 
+
+.last-page {
+    background-color: black;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    padding: auto;
+    margin: auto;
+    padding: 50px;
+    height: 300px;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 34px;
+    /* background-color: black; */
+}
+
+footer span{
+    padding: 10px 10px ;
+    font-size: 20px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.btn-end{
+    border: 1px solid white;
+    width: 58px;
+    padding: 1px 14px;
+    margin: 16px -3px;
+    border-radius: 5px;
+}
+
+input {
+    padding: 11px 97px 11px 28px;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgb(70, 69, 69);
+    color: white;
+}
+
+.secbtn {
+    margin: 32px 0;
+    text-align: center;
+    font-size: 22px;
+}
 
 /* https://web.archive.org/web/20231117000621/https://www.netflix.com/ */
